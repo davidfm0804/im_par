@@ -1,9 +1,9 @@
 <?php
     $num=$_GET['numero'];
-    function calcularCuadradoImparPar($num): array{
+    function calcularCuadradoImparPar($num): array{//esto ultimo es para indicar que la funcion devuelve un array
         $cuadrado = $num * $num;
         if($num % 2 == 0){
-            return [true,$cuadrado];    
+            return [true,$cuadrado];//devuelve dos valores 
         }else{
             return [false,$cuadrado];
         }
