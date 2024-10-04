@@ -1,6 +1,6 @@
 <?php
     $num=$_GET['numero'];
-    //Esta funcion calcula el cuadrado del numero pasado por el formulario y si es par o impar
+    //Esta funcion calcula el cuadrado del numero pasado por el formulario y si es par 
     function calcularCuadradoImparPar($num): array{//esto ultimo es para indicar que la funcion devuelve un array
         $cuadrado = $num * $num;
         if($num % 2 == 0){
